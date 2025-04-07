@@ -1,4 +1,6 @@
-import org.example.Matrix;
+package TP0;
+
+import org.example.TP0.Matrix;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

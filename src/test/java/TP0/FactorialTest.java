@@ -1,4 +1,6 @@
-import org.example.Factorial;
+package TP0;
+
+import org.example.TP0.Factorial;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
