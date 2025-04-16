@@ -1,3 +1,68 @@
+# Tests Unitaires TP1 - Couverture de Code
+
+## Exercices de Couverture
+
+### 1. Couverture de Lignes (LineCoverageTest)
+- Test de toutes les lignes de code exécutables
+- Vérification des chemins de base
+- Exemple : `BinarySearch.binarySearch()`
+
+### 2. Couverture de Branches (BranchCoverageTest)
+- Test de toutes les conditions if/else
+- Vérification des différents chemins de décision
+- Exemple : `QuadraticEquation.solve()`
+
+### 3. Couverture de Conditions (ConditionCoverageTest)
+- Test de toutes les combinaisons de conditions
+- Vérification des cas limites
+- Exemple : `Anagram.isAnagram()`
+
+## Classes Testées
+
+### BinarySearch
+- Recherche binaire dans un tableau trié
+- Gestion des cas null
+- Retourne l'index ou -1
+
+### Anagram
+- Vérification d'anagrammes
+- Gestion de la casse et des espaces
+- Utilisation d'un tableau de comptage
+
+### Palindrome
+note (il y a une erreur ou j-- et i++)
+- Vérification de palindromes
+- Gestion de la casse et des espaces
+- Comparaison caractère par caractère
+
+### FizzBuzz
+- Règles FizzBuzz classiques
+- Gestion des cas limites
+- Retourne Fizz, Buzz ou FizzBuzz
+
+### RomanNumeral
+- Conversion de nombres en chiffres romains
+- Gestion des valeurs limites (1-3999)
+- Utilisation de symboles et valeurs
+
+### QuadraticEquation
+- Résolution d'équations quadratiques
+- Gestion du discriminant
+- Retourne 0, 1 ou 2 solutions
+
+## Stratégies de Test
+
+1. Tests de cas normaux
+2. Tests de cas limites
+3. Tests d'exceptions
+4. Tests de couverture complète
+
+## Outils Utilisés
+- JUnit 5
+- JaCoCo pour la couverture
+- IntelliJ IDEA 
+
+
 # Tests Unitaires TP2 - Mockups
 
 ## Exercice n°1
